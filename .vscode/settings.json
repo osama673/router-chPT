@@ -1,0 +1,17 @@
+{
+  // Fix all eslint problems on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // Set the default formatter to Prettier and format on save
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.fontSize": 14,
+
+  // CSS options for Tailwind
+  "css.validate": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}
